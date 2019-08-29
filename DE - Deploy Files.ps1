@@ -1,10 +1,12 @@
 $Source = 'C:\Temp\DEFiles'
-$SiteBLocations = @("\\Vruk-b-macSQL03\c$\Services\DiscountEngineService","\\Vruk-b-macSQL04\c$\Services\DiscountEngineService",
-                "\\Vruk-b-macSQL02\c$\Services\DiscountEngineService","\\Vruk-b-macSQL01\c$\Services\DiscountEngineService",
-                "\\Vruk-b-ILTSQL01\c$\Services\DiscountEngineService","\\Vruk-b-ILTSQL02\c$\Services\DiscountEngineService",
-                "\\Vruk-b-ILTSQL03\c$\Services\DiscountEngineService","\\Vruk-b-ILTSQL04\c$\Services\DiscountEngineService"
-                "\\Vruk-b-ILTSQL05\c$\Services\DiscountEngineService","\\Vruk-b-ILTSQL06\c$\Services\DiscountEngineService",
-                "\\Vruk-b-ILTSQL07\c$\Services\DiscountEngineService")
+$SiteBLocations = @(
+    "\\Vruk-b-macSQL03\c$\Services\DiscountEngineService","\\Vruk-b-macSQL04\c$\Services\DiscountEngineService",
+    "\\Vruk-b-macSQL02\c$\Services\DiscountEngineService","\\Vruk-b-macSQL01\c$\Services\DiscountEngineService",
+    "\\Vruk-b-ILTSQL01\c$\Services\DiscountEngineService","\\Vruk-b-ILTSQL02\c$\Services\DiscountEngineService",
+    "\\Vruk-b-ILTSQL03\c$\Services\DiscountEngineService","\\Vruk-b-ILTSQL04\c$\Services\DiscountEngineService"
+    "\\Vruk-b-ILTSQL05\c$\Services\DiscountEngineService", "\\Vruk-b-ILTSQL06\c$\Services\DiscountEngineService",
+    "\\Vruk-b-ILTSQL07\c$\Services\DiscountEngineService"
+                    )
                 
 foreach ($dir in $SiteBLocations)
 {
